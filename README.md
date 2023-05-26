@@ -64,22 +64,22 @@
   <img src="docs/figs/demo.gif" align="center" width="95%">
 </p>
 
-### :film_strip: Video Demo
+### :movie_camera: Video Demo
 | Demo 1 | Demo 2| Demo 3|
 | :-: | :-: | :-: |
 | <img width="100%" src="docs/figs/demo1.jpg"> | <img width="100%" src="docs/figs/demo2.jpg"> | <img width="100%" src="docs/figs/demo3.jpg"> | 
 | [Link]() <sup>:arrow_heading_up:</sup> | [Link]() <sup>:arrow_heading_up:</sup> | [Link]() <sup>:arrow_heading_up:</sup> |
 
 
-
 ## Updates
 - \[2023.06\] - 
+
 
 ## Outline
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
 - [Getting Started](#getting-started)
-- [Main Results](#main-results)
+- [Main Result](#main-result)
 - [TODO List](#todo-list)
 - [License](#license)
 - [Acknowledgement](#acknowledgement)
@@ -91,7 +91,7 @@ Please refer to [INSTALL.md](docs/INSTALL.md) for the installation details.
 
 
 ## Data Preparation
-The effectiveness of Seal :seal: has been extensively verified on *eleven* different point cloud datasets, including those consisting of real/synthetic, low/high-resolution, large/small-scale, and clean/corrupted point clouds.
+The effectiveness of **Seal :seal:** has been extensively verified on *eleven* different point cloud datasets, including those consisting of real/synthetic, low/high-resolution, large/small-scale, and clean/corrupted point clouds.
 
 | [**nuScenes**](https://www.nuscenes.org/nuscenes) | [**SemanticKITTI**](http://semantic-kitti.org/) | [**Waymo Open**](https://waymo.com/open) | [**ScribbleKITTI**](https://github.com/ouenal/scribblekitti) |
 | :-: | :-: | :-: | :-: |
@@ -104,6 +104,10 @@ The effectiveness of Seal :seal: has been extensively verified on *eleven* diffe
 Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare these datasets.
 
 
+## Getting Started
+Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about this codebase.
+
+
 ## Main Result
 
 ### :unicorn: Framework Overview
@@ -112,11 +116,15 @@ Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepa
   <img src="docs/figs/framework.jpg" align="center" width="99.9%">
 </p>
 
+> Overview of the **Seal :seal:** framework. We generate, for each {LiDAR, camera} pair at timestamp t and another LiDAR frame at timestamp t + n, the semantic superpixel and superpoint by VFMs. Two pertaining objectives are then formed, including *spatial contrastive learning* between paired LiDAR and cameras features and *temporal consistency regularization* between segments at different timestamps.
+
 ### :car: Cosine Similaristy
 
 <p align="center">
   <img src="docs/figs/cosine.jpg" align="center" width="99.9%">
 </p>
+
+> The *cosine similarity* between a query point (red dot) and the feature learned with SLIC and different VFMs in our **Seal :seal:** framework. The queried semantic classes from top to bottom examples are: “car”, “manmade”, and “truck”. The color goes from violet to yellow denoting low and high similarity scores, respectively.
 
 ### :blue_car: Linear Probing
 
@@ -124,11 +132,15 @@ Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepa
   <img src="docs/figs/linear.gif" align="center" width="99.9%">
 </p>
 
+> The qualitative results of our **Seal :seal:** framework pretrained on nuScenes (without using groundtruth labels) and linear probed with a frozen backbone and a linear classification head. To highlight the differences, the correct / incorrect predictions are painted in gray / red, respectively.
+
 ### :bus: Downstream Task
 
 <p align="center">
   <img src="docs/figs/qualitative.jpg" align="center" width="99.9%">
 </p>
+
+> The qualitative results of **Seal :seal:** and prior methods pretrained on nuScenes (without using groundtruth labels) and fine-tuned with 1% labeled data. To highlight the differences, the correct / incorrect predictions are painted in gray / red, respectively.
 
 
 ## TODO List
