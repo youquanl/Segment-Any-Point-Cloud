@@ -112,35 +112,27 @@ Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 
 ### :unicorn: Framework Overview
 
-<p align="center">
-  <img src="docs/figs/framework.jpg" align="center" width="99.9%">
-</p>
-
-> Overview of the **Seal :seal:** framework. We generate, for each {LiDAR, camera} pair at timestamp t and another LiDAR frame at timestamp t + n, the semantic superpixel and superpoint by VFMs. Two pertaining objectives are then formed, including *spatial contrastive learning* between paired LiDAR and cameras features and *temporal consistency regularization* between segments at different timestamps.
+| <img src="docs/figs/framework.jpg" align="center" width="99%"> |
+| :-: |
+| Overview of the **Seal :seal:** framework. We generate, for each {LiDAR, camera} pair at timestamp t and another LiDAR frame at timestamp t + n, the semantic superpixel and superpoint by VFMs. Two pertaining objectives are then formed, including *spatial contrastive learning* between paired LiDAR and cameras features and *temporal consistency regularization* between segments at different timestamps. |
 
 ### :car: Cosine Similaristy
 
-<p align="center">
-  <img src="docs/figs/cosine.jpg" align="center" width="99.9%">
-</p>
-
-> The *cosine similarity* between a query point (red dot) and the feature learned with SLIC and different VFMs in our **Seal :seal:** framework. The queried semantic classes from top to bottom examples are: “car”, “manmade”, and “truck”. The color goes from violet to yellow denoting low and high similarity scores, respectively.
+| <img src="docs/figs/cosine.jpg" align="center" width="99%"> |
+| :-: |
+| The *cosine similarity* between a query point (red dot) and the feature learned with SLIC and different VFMs in our **Seal :seal:** framework. The queried semantic classes from top to bottom examples are: “car”, “manmade”, and “truck”. The color goes from violet to yellow denoting low and high similarity scores, respectively. |
 
 ### :blue_car: Linear Probing
 
-<p align="center">
-  <img src="docs/figs/linear.gif" align="center" width="99.9%">
-</p>
-
-> The qualitative results of our **Seal :seal:** framework pretrained on nuScenes (without using groundtruth labels) and linear probed with a frozen backbone and a linear classification head. To highlight the differences, the correct / incorrect predictions are painted in gray / red, respectively.
+| <img src="docs/figs/linear.gif" align="center" width="99%"> |
+| :-: |
+| The qualitative results of our **Seal :seal:** framework pretrained on nuScenes (without using groundtruth labels) and linear probed with a frozen backbone and a linear classification head. To highlight the differences, the correct / incorrect predictions are painted in gray / red, respectively. |
 
 ### :bus: Downstream Task
 
-<p align="center">
-  <img src="docs/figs/qualitative.jpg" align="center" width="99.9%">
-</p>
-
-> The qualitative results of **Seal :seal:** and prior methods pretrained on nuScenes (without using groundtruth labels) and fine-tuned with 1% labeled data. To highlight the differences, the correct / incorrect predictions are painted in gray / red, respectively.
+| <img src="docs/figs/qualitative.jpg" align="center" width="99%"> |
+| :-: |
+| The qualitative results of **Seal :seal:** and prior methods pretrained on nuScenes (without using groundtruth labels) and fine-tuned with 1% labeled data. To highlight the differences, the correct / incorrect predictions are painted in gray / red, respectively. |
 
 
 ## TODO List
