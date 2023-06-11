@@ -64,6 +64,7 @@
   <img src="docs/figs/demo.gif" align="center" width="95%">
 </p>
 
+
 ### :movie_camera: Video Demo
 | Demo 1 | Demo 2| Demo 3|
 | :-: | :-: | :-: |
@@ -72,7 +73,7 @@
 
 
 ## Updates
-- \[2023.06\] - 
+- \[2023.06\] - Our paper is available on arXiv, click [here]() to check it out. Code will be available later!
 
 
 ## Outline
@@ -91,7 +92,7 @@ Please refer to [INSTALL.md](docs/INSTALL.md) for the installation details.
 
 
 ## Data Preparation
-The effectiveness of **Seal :seal:** has been extensively verified on *eleven* different point cloud datasets, including those consisting of real/synthetic, low/high-resolution, large/small-scale, and clean/corrupted point clouds.
+We verify the effectiveness of **Seal :seal:** on **eleven** different point cloud datasets, including those consisting of `real-world`, `synthetic`, `low-resolution`, `high-resolution`, `small-scale`, `large-scale`, `clean`, and `corrupted` point clouds.
 
 | [**nuScenes**](https://www.nuscenes.org/nuscenes) | [**SemanticKITTI**](http://semantic-kitti.org/) | [**Waymo Open**](https://waymo.com/open) | [**ScribbleKITTI**](https://github.com/ouenal/scribblekitti) |
 | :-: | :-: | :-: | :-: |
@@ -102,6 +103,21 @@ The effectiveness of **Seal :seal:** has been extensively verified on *eleven* d
 | <img width="115" src="docs/figs/dataset/synlidar.png"> | <img width="115" src="docs/figs/dataset/synth4d.png"> | <img width="115" src="docs/figs/dataset/nuscenes-c.png"> |
 
 Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare these datasets.
+
+
+## Superpoint Generation
+
+| Raw Point Cloud | Semantic Superpoint | Groundtruth |
+| :-: | :-: | :-: |
+| <img src="docs/figs/rotate/rotate1.gif" align="center" width="240"> | <img src="docs/figs/rotate/rotate1_sp.gif" align="center" width="240"> | <img src="docs/figs/rotate/rotate1_gt.gif" align="center" width="240"> | 
+| |
+| <img src="docs/figs/rotate/rotate2.gif" align="center" width="240"> | <img src="docs/figs/rotate/rotate2_sp.gif" align="center" width="240"> | <img src="docs/figs/rotate/rotate2_gt.gif" align="center" width="240"> |
+| |
+| <img src="docs/figs/rotate/rotate3.gif" align="center" width="240"> | <img src="docs/figs/rotate/rotate3_sp.gif" align="center" width="240"> | <img src="docs/figs/rotate/rotate3_gt.gif" align="center" width="240"> |
+| |
+| <img src="docs/figs/rotate/rotate4.gif" align="center" width="240"> | <img src="docs/figs/rotate/rotate4_sp.gif" align="center" width="240"> | <img src="docs/figs/rotate/rotate4_gt.gif" align="center" width="240"> |
+
+Kindly refer to [SUPERPOINT.md](docs/SUPERPOINT.md) for the details to generate the semantic superpixels & superpoints with vision foundation models.
 
 
 ## Getting Started
