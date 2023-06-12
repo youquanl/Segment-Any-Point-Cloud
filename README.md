@@ -1,4 +1,4 @@
-<p align="right">English | <a href="./README_CN.md">简体中文</a></p>
+<p align="right">English | <a href="docs/README_CN.md">简体中文</a></p>
 
 <p align="center">
   <img src="docs/figs/logo.png" align="center" width="44%">
@@ -132,7 +132,7 @@ Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 | :-: |
 | Overview of the **Seal :seal:** framework. We generate, for each {LiDAR, camera} pair at timestamp t and another LiDAR frame at timestamp t + n, the semantic superpixel and superpoint by VFMs. Two pertaining objectives are then formed, including *spatial contrastive learning* between paired LiDAR and cameras features and *temporal consistency regularization* between segments at different timestamps. |
 
-### :car: Cosine Similaristy
+### :car: Cosine Similarity
 
 | <img src="docs/figs/cosine.jpg" align="center" width="99%"> |
 | :-: |
