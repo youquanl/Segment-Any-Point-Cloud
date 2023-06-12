@@ -136,7 +136,7 @@ Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 
 | <img src="docs/figs/cosine.jpg" align="center" width="99%"> |
 | :-: |
-| The *cosine similarity* between a query point (red dot) and the feature learned with SLIC and different VFMs in our **Seal :seal:** framework. The queried semantic classes from top to bottom examples are: “car”, “manmade”, and “truck”. The color goes from violet to yellow denoting low and high similarity scores, respectively. |
+| The cosine similarity between a query point (red dot) and the feature learned with SLIC and different VFMs in our **Seal :seal:** framework. The queried semantic classes from top to bottom examples are: “car”, “manmade”, and “truck”. The color goes from violet to yellow denoting low and high similarity scores, respectively. |
 
 ### :blue_car: Linear Probing
 
