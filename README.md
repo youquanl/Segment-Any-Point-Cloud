@@ -48,16 +48,16 @@
 
 
 # Seal :seal:
-**Seal** is a versatile self-supervised learning framework capable of segmenting *any* automotive point clouds by leveraging off-the-shelf knowledge from vision foundation models (VFMs) and encouraging spatial and temporal consistency from such knowledge during the representation learning stage.
+`Seal` is a versatile self-supervised learning framework capable of segmenting *any* automotive point clouds by leveraging off-the-shelf knowledge from vision foundation models (VFMs) and encouraging spatial and temporal consistency from such knowledge during the representation learning stage.
 
 <p align="center">
   <img src="docs/figs/teaser.jpg" align="center" width="95%">
 </p>
 
 ### :sparkles: Highlight
-- :rocket: **Scalability:** Seal directly distills the knowledge from VFMs into point clouds, eliminating the need for annotations in either 2D or 3D during pretraining.
-- :balance_scale: **Consistency:** Seal enforces the spatial and temporal relationships at both the camera-to-LiDAR and point-to-segment stages, facilitating cross-modal representation learning.
-- :rainbow: **Generalizability:** Seal enables knowledge transfer in an off-the-shelf manner to downstream tasks involving diverse point clouds, including those from real/synthetic, low/high-resolution, large/small-scale, and clean/corrupted datasets.
+- :rocket: **Scalability:** `Seal` directly distills the knowledge from VFMs into point clouds, eliminating the need for annotations in either 2D or 3D during pretraining.
+- :balance_scale: **Consistency:** `Seal` enforces the spatial and temporal relationships at both the camera-to-LiDAR and point-to-segment stages, facilitating cross-modal representation learning.
+- :rainbow: **Generalizability:** `Seal` enables knowledge transfer in an off-the-shelf manner to downstream tasks involving diverse point clouds, including those from real/synthetic, low/high-resolution, large/small-scale, and clean/corrupted datasets.
 
 ### :oncoming_automobile: 2D-3D Correspondence
 <p align="center">
@@ -69,7 +69,7 @@
 | Demo 1 | Demo 2| Demo 3|
 | :-: | :-: | :-: |
 | <img width="100%" src="docs/figs/demo1.jpg"> | <img width="100%" src="docs/figs/demo2.jpg"> | <img width="100%" src="docs/figs/demo3.jpg"> | 
-| [Link]() <sup>:arrow_heading_up:</sup> | [Link]() <sup>:arrow_heading_up:</sup> | [Link]() <sup>:arrow_heading_up:</sup> |
+| [Link](https://youtu.be/S0q2-nQdwSs) <sup>:arrow_heading_up:</sup> | [Link](https://youtu.be/yoon3uiRnY8) <sup>:arrow_heading_up:</sup> | [Link]() <sup>:arrow_heading_up:</sup> |
 
 
 ## Updates
@@ -88,11 +88,10 @@
 
 
 ## Installation
-Please refer to [INSTALL.md](docs/INSTALL.md) for the installation details.
+Please refer to [INSTALL.md](docs/document/INSTALL.md) for the installation details.
 
 
 ## Data Preparation
-We verify the effectiveness of **Seal :seal:** on **eleven** different point cloud datasets, including those consisting of `real-world`, `synthetic`, `low-resolution`, `high-resolution`, `small-scale`, `large-scale`, `clean`, and `corrupted` point clouds.
 
 | [**nuScenes**](https://www.nuscenes.org/nuscenes) | [**SemanticKITTI**](http://semantic-kitti.org/) | [**Waymo Open**](https://waymo.com/open) | [**ScribbleKITTI**](https://github.com/ouenal/scribblekitti) |
 | :-: | :-: | :-: | :-: |
@@ -102,7 +101,7 @@ We verify the effectiveness of **Seal :seal:** on **eleven** different point clo
 | [**SynLiDAR**](https://github.com/xiaoaoran/SynLiDAR) | [**Synth4D**](https://github.com/saltoricristiano/gipso-sfouda) | [**nuScenes-C**](https://github.com/ldkong1205/Robo3D) |
 | <img width="115" src="docs/figs/dataset/synlidar.png"> | <img width="115" src="docs/figs/dataset/synth4d.png"> | <img width="115" src="docs/figs/dataset/nuscenes-c.png"> |
 
-Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare these datasets.
+Please refer to [DATA_PREPARE.md](docs/document/DATA_PREPARE.md) for the details to prepare these datasets.
 
 
 ## Superpoint Generation
@@ -117,11 +116,11 @@ Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepa
 | |
 | <img src="docs/figs/rotate/rotate4.gif" align="center" width="240"> | <img src="docs/figs/rotate/rotate4_sp.gif" align="center" width="240"> | <img src="docs/figs/rotate/rotate4_gt.gif" align="center" width="240"> |
 
-Kindly refer to [SUPERPOINT.md](docs/SUPERPOINT.md) for the details to generate the semantic superpixels & superpoints with vision foundation models.
+Kindly refer to [SUPERPOINT.md](docs/document/SUPERPOINT.md) for the details to generate the semantic superpixels & superpoints with vision foundation models.
 
 
 ## Getting Started
-Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about this codebase.
+Kindly refer to [GET_STARTED.md](docs/document/GET_STARTED.md) to learn more usage about this codebase.
 
 
 ## Main Result
@@ -156,8 +155,8 @@ Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 - [x] Initial release. :rocket:
 - [x] Add license. See [here](#license) for more details.
 - [x] Add video demos :movie_camera:
-- [ ] Add installation details.
-- [ ] Add data preparation details.
+- [x] Add installation details.
+- [x] Add data preparation details.
 - [ ] Add evaluation details.
 - [ ] Add training details.
 
