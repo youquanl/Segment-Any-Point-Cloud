@@ -137,19 +137,7 @@ Kindly refer to [GET_STARTED.md](docs/document/GET_STARTED.md) to learn more usa
 | :-: |
 | The cosine similarity between a query point (red dot) and the feature learned with SLIC and different VFMs in our **Seal :seal:** framework. The queried semantic classes from top to bottom examples are: “car”, “manmade”, and “truck”. The color goes from violet to yellow denoting low and high similarity scores, respectively. |
 
-### :blue_car: Linear Probing
-
-| <img src="docs/figs/linear.gif" align="center" width="99%"> |
-| :-: |
-| The qualitative results of our **Seal :seal:** framework pretrained on nuScenes (without using groundtruth labels) and linear probed with a frozen backbone and a linear classification head. To highlight the differences, the correct / incorrect predictions are painted in gray / red, respectively. |
-
-### :bus: Downstream Task
-
-| <img src="docs/figs/qualitative.jpg" align="center" width="99%"> |
-| :-: |
-| The qualitative results of **Seal :seal:** and prior methods pretrained on nuScenes (without using groundtruth labels) and fine-tuned with 1% labeled data. To highlight the differences, the correct / incorrect predictions are painted in gray / red, respectively. |
-
-### :articulated_lorry: Benchmark
+### :blue_car: Benchmark
 
 <table class="center">
    <tr>
@@ -200,7 +188,13 @@ Kindly refer to [GET_STARTED.md](docs/document/GET_STARTED.md) to learn more usa
    </tr>
 </table>
 
-### :tractor: Generalization
+### :bus: Linear Probing
+
+| <img src="docs/figs/linear.gif" align="center" width="99%"> |
+| :-: |
+| The qualitative results of our **Seal :seal:** framework pretrained on nuScenes (without using groundtruth labels) and linear probed with a frozen backbone and a linear classification head. To highlight the differences, the correct / incorrect predictions are painted in gray / red, respectively. |
+
+### :articulated_lorry: Downstream Generalization
 
 <table class="center">
    <tr>
@@ -247,6 +241,12 @@ Kindly refer to [GET_STARTED.md](docs/document/GET_STARTED.md) to learn more usa
 | PPKT | [MinkUNet](https://github.com/NVIDIA/MinkowskiEngine) | 105.64 | 76.06 | 64.01 | 72.18 | 59.08 | 57.17 | 63.88 | 36.34 | 60.59 | 39.57 |
 | SLidR | [MinkUNet](https://github.com/NVIDIA/MinkowskiEngine) | 106.08 | 75.99 | 65.41 | 72.31 | 56.01 | 56.07 | 62.87 | 41.94 | 61.16 | 38.90 |
 | **Seal :seal:** | [MinkUNet](https://github.com/NVIDIA/MinkowskiEngine) | 92.63 | 83.08 | 72.66 | 74.31 | 66.22 | 66.14 | 65.96 | 57.44 | 59.87 | 39.85 |
+
+### :tractor: Qualitative Assessment
+
+| <img src="docs/figs/qualitative.jpg" align="center" width="99%"> |
+| :-: |
+| The qualitative results of **Seal :seal:** and prior methods pretrained on nuScenes (without using groundtruth labels) and fine-tuned with 1% labeled data. To highlight the differences, the correct / incorrect predictions are painted in gray / red, respectively. |
 
 
 ## TODO List
