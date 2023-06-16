@@ -268,7 +268,7 @@ If you find this work helpful, please kindly consider citing our paper:
 @article{liu2023segment,
   title = {Segment Any Point Cloud Sequences by Distilling Vision Foundation Models},
   author = {Liu, Youquan and Kong, Lingdong and Cen, Jun and Chen, Runnan and Zhang, Wenwei and Pan, Liang and Chen, Kai and Liu, Ziwei},
-  journal = {arXiv preprint arXiv:23xx.xxxxx}, 
+  journal = {arXiv preprint arXiv:2306.09347}, 
   year = {2023},
 }
 ```
