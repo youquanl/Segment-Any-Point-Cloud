@@ -7,12 +7,12 @@
 This codebase is tested with `torch==1.10.0` and `torchvision==0.11.2`, with `CUDA 11.3`. In order to successfully reproduce the results reported in our paper, we recommend you to follow the exact same configuation with us. However, similar versions that came out lately should be good as well.
 
 
-### Step 1: Create Enviroment
+### Step 1: Create Environment
 ```Shell
 conda create -n seal python=3.9.15
 ```
 
-### Step 2: Activate Enviroment
+### Step 2: Activate Environment
 ```Shell
 conda activate seal
 ```
@@ -54,7 +54,7 @@ pip install spconv == 2.3.6
 pip install pyyaml easydict numba
 ```
 
-## Enviroment Summary
+## Environment Summary
 
 We provide the list of all packages and their corresponding versions installed in this codebase:
 ```Shell
