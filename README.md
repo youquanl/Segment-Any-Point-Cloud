@@ -74,6 +74,7 @@
 
 ## Updates
 - \[2023.06\] - Our paper is available on arXiv, click [here](https://arxiv.org/abs/2306.09347) to check it out. Code will be available later!
+- \[2023.07\] - You can explore superpixel generation codes by clicking [here](docs/document/SUPERPOINT.md).
 
 
 ## Outline
