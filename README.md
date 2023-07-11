@@ -16,10 +16,10 @@
     <a href="https://liuziwei7.github.io">Ziwei Liu</a><sup>5</sup>&nbsp;
     <br>
     <sup>1</sup>Shanghai AI Laboratory&nbsp;&nbsp;&nbsp;
-    <sup>2</sup>NUS&nbsp;&nbsp;&nbsp;
-    <sup>3</sup>HKUST&nbsp;&nbsp;&nbsp;
-    <sup>4</sup>HKU&nbsp;&nbsp;&nbsp;
-    <sup>5</sup>S-Lab, NTU
+    <sup>2</sup>National University of Singapore&nbsp;&nbsp;&nbsp;
+    <sup>3</sup>The Hong Kong University of Science and Technology<br>
+    <sup>4</sup>The University of Hong Kong&nbsp;&nbsp;&nbsp;
+    <sup>5</sup>S-Lab, Nanyang Technological University
   </p>
 
 </p>
@@ -80,6 +80,7 @@
 ## Outline
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
+- [Superpoint Generation](#superpoint-generation)
 - [Getting Started](#getting-started)
 - [Main Result](#main-result)
 - [TODO List](#todo-list)
@@ -121,7 +122,7 @@ Kindly refer to [SUPERPOINT.md](docs/document/SUPERPOINT.md) for the details to 
 
 
 ## Getting Started
-Kindly refer to [GET_STARTED.md](docs/document/GET_STARTED.md) to learn more usage about this codebase.
+Kindly refer to [GET_STARTED.md](docs/document/GET_STARTED.md) to learn more usage of this codebase.
 
 
 ## Main Result
@@ -130,7 +131,7 @@ Kindly refer to [GET_STARTED.md](docs/document/GET_STARTED.md) to learn more usa
 
 | <img src="docs/figs/framework.jpg" align="center" width="99%"> |
 | :-: |
-| Overview of the **Seal :seal:** framework. We generate, for each {LiDAR, camera} pair at timestamp t and another LiDAR frame at timestamp t + n, the semantic superpixel and superpoint by VFMs. Two pertaining objectives are then formed, including *spatial contrastive learning* between paired LiDAR and cameras features and *temporal consistency regularization* between segments at different timestamps. |
+| Overview of the **Seal :seal:** framework. We generate, for each {LiDAR, camera} pair at timestamp t and another LiDAR frame at timestamp t + n, the semantic superpixel and superpoint by VFMs. Two pertaining objectives are then formed, including *spatial contrastive learning* between paired LiDAR and camera features and *temporal consistency regularization* between segments at different timestamps. |
 
 ### :car: Cosine Similarity
 
