@@ -6,18 +6,18 @@
   <h3 align="center"><strong>Segment Any Point Cloud Sequences by Distilling Vision Foundation Models</strong></h3>
 
   <p align="center">
-    <a href="https://github.com/youquanl">Youquan Liu</a><sup>1,*</sup>&nbsp;
-    <a href="https://ldkong.com">Lingdong Kong</a><sup>1,2,*</sup>&nbsp;
-    <a href="http://cen-jun.com">Jun Cen</a><sup>3</sup>&nbsp;
-    <a href="https://scholar.google.com/citations?user=Uq2DuzkAAAAJ">Runnan Chen</a><sup>4</sup>&nbsp;
-    <a href="http://zhangwenwei.cn">Wenwei Zhang</a><sup>1,5</sup>&nbsp;
-    <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ">Liang Pan</a><sup>5</sup>&nbsp;
-    <a href="http://chenkai.site">Kai Chen</a><sup>1</sup>&nbsp;
-    <a href="https://liuziwei7.github.io">Ziwei Liu</a><sup>5</sup>&nbsp;
+    <a href="https://github.com/youquanl">Youquan Liu</a><sup>1,*</sup>&nbsp;&nbsp;&nbsp;
+    <a href="https://ldkong.com">Lingdong Kong</a><sup>1,2,*</sup>&nbsp;&nbsp;&nbsp;
+    <a href="http://cen-jun.com">Jun Cen</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=Uq2DuzkAAAAJ">Runnan Chen</a><sup>4</sup>&nbsp;&nbsp;&nbsp;
+    <a href="http://zhangwenwei.cn">Wenwei Zhang</a><sup>1,5</sup><br>
+    <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ">Liang Pan</a><sup>5</sup>&nbsp;&nbsp;&nbsp;
+    <a href="http://chenkai.site">Kai Chen</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+    <a href="https://liuziwei7.github.io">Ziwei Liu</a><sup>5</sup>
     <br>
     <sup>1</sup>Shanghai AI Laboratory&nbsp;&nbsp;&nbsp;
     <sup>2</sup>National University of Singapore&nbsp;&nbsp;&nbsp;
-    <sup>3</sup>The Hong Kong University of Science and Technology<br>
+    <sup>3</sup>The Hong Kong University of Science and Technology&nbsp;&nbsp;&nbsp;
     <sup>4</sup>The University of Hong Kong&nbsp;&nbsp;&nbsp;
     <sup>5</sup>S-Lab, Nanyang Technological University
   </p>
