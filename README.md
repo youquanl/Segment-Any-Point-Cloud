@@ -73,8 +73,8 @@
 
 
 ## Updates
+- \[2023.07\] - We release the [code](docs/document/SUPERPOINT.md) for generating semantic superpixel & superpoint by [SLIC](https://scikit-image.org/docs/stable/api/skimage.segmentation.html#skimage.segmentation.slic), [SAM](https://github.com/facebookresearch/segment-anything), and [SEEM](https://scikit-image.org/docs/stable/api/skimage.segmentation.html#skimage.segmentation.slic). More VFMs coming on the way!
 - \[2023.06\] - Our paper is available on arXiv, click [here](https://arxiv.org/abs/2306.09347) to check it out. Code will be available later!
-- \[2023.07\] - You can explore superpixel generation codes by clicking [here](docs/document/SUPERPOINT.md).
 
 
 ## Outline
@@ -257,6 +257,8 @@ Kindly refer to [GET_STARTED.md](docs/document/GET_STARTED.md) to learn more usa
 - [x] Add video demos :movie_camera:
 - [x] Add installation details.
 - [x] Add data preparation details.
+- [x] Support semantic superpixel generation.
+- [x] Support semantic superpoint generation.
 - [ ] Add evaluation details.
 - [ ] Add training details.
 
@@ -293,7 +295,7 @@ This work is under the <a rel="license" href="http://creativecommons.org/license
 This work is developed based on the [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) codebase.
 
 ><img src="https://github.com/open-mmlab/mmdetection3d/blob/main/resources/mmdet3d-logo.png" width="30%"/><br>
-> MMDetection3D is an open source object detection toolbox based on PyTorch, towards the next-generation platform for general 3D detection. It is a part of the OpenMMLab project developed by MMLab.
+> MMDetection3D is an open-source object detection toolbox based on PyTorch, towards the next-generation platform for general 3D detection. It is a part of the OpenMMLab project developed by MMLab.
 
 Part of this codebase has been adapted from [SLidR](https://github.com/valeoai/SLidR), [Segment Anything](https://github.com/facebookresearch/segment-anything), [X-Decoder](https://github.com/microsoft/X-Decoder), [OpenSeeD](https://github.com/IDEA-Research/OpenSeeD), [Segment Everything Everywhere All at Once](https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once), [LaserMix](https://github.com/ldkong1205/LaserMix), and [Robo3D](https://github.com/ldkong1205/Robo3D).
 
