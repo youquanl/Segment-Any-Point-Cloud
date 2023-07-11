@@ -1,3 +1,5 @@
+# modified from SLidR (https://github.com/valeoai/SLidR/blob/main/pretrain/dataloader_nuscenes.py)
+
 import os
 import numpy as np
 import copy
@@ -16,7 +18,6 @@ import pickle
 seed = 1242
 random.seed(seed)
 np.random.seed(seed)
-
 
 
 def map_pointcloud_to_image(data, sp_root, min_dist: float = 1.0):
