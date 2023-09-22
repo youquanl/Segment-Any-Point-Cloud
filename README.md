@@ -73,6 +73,8 @@
 
 
 ## Updates
+- \[2023.09\] - `Seal` was selected as a :sparkles: spotlight :sparkles: at [NeurIPS 2023](https://neurips.cc/).
+- \[2023.09\] - `Seal` was accepted to [NeurIPS 2023](https://neurips.cc/)! :tada:
 - \[2023.07\] - We release the [code](docs/document/SUPERPOINT.md) for generating semantic superpixel & superpoint by [SLIC](https://scikit-image.org/docs/stable/api/skimage.segmentation.html#skimage.segmentation.slic), [SAM](https://github.com/facebookresearch/segment-anything), and [SEEM](https://scikit-image.org/docs/stable/api/skimage.segmentation.html#skimage.segmentation.slic). More VFMs coming on the way!
 - \[2023.06\] - Our paper is available on arXiv, click [here](https://arxiv.org/abs/2306.09347) to check it out. Code will be available later!
 
