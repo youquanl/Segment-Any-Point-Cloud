@@ -271,10 +271,10 @@ Kindly refer to [GET_STARTED.md](docs/document/GET_STARTED.md) to learn more usa
 If you find this work helpful, please kindly consider citing our paper:
 
 ```bibtex
-@article{liu2023segment,
+@inproceedings{liu2023segment,
   title = {Segment Any Point Cloud Sequences by Distilling Vision Foundation Models},
   author = {Liu, Youquan and Kong, Lingdong and Cen, Jun and Chen, Runnan and Zhang, Wenwei and Pan, Liang and Chen, Kai and Liu, Ziwei},
-  journal = {arXiv preprint arXiv:2306.09347}, 
+  booktitle = {Advances in Neural Information Processing Systems}, 
   year = {2023},
 }
 ```
